@@ -47,6 +47,11 @@
 		C1B395961C94226600EF5544 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B3958C1C94226600EF5544 /* JSONValueTransformer.m */; };
 		C1B3959C1C942C0000EF5544 /* ic_searchBar_bgImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1B3959B1C942C0000EF5544 /* ic_searchBar_bgImage@2x.png */; };
 		C1B3959E1C94336500EF5544 /* navBar_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = C1B3959D1C94336500EF5544 /* navBar_bg.png */; };
+		C1B395AA1C943EBF00EF5544 /* xx.png in Resources */ = {isa = PBXBuildFile; fileRef = C1B395A51C943EBF00EF5544 /* xx.png */; };
+		C1B395AB1C943EBF00EF5544 /* xxx.png in Resources */ = {isa = PBXBuildFile; fileRef = C1B395A61C943EBF00EF5544 /* xxx.png */; };
+		C1B395AC1C943EBF00EF5544 /* xxy.png in Resources */ = {isa = PBXBuildFile; fileRef = C1B395A71C943EBF00EF5544 /* xxy.png */; };
+		C1B395AD1C943EBF00EF5544 /* xy.png in Resources */ = {isa = PBXBuildFile; fileRef = C1B395A81C943EBF00EF5544 /* xy.png */; };
+		C1B395AE1C943EBF00EF5544 /* xz.png in Resources */ = {isa = PBXBuildFile; fileRef = C1B395A91C943EBF00EF5544 /* xz.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -109,6 +114,11 @@
 		C1B3958C1C94226600EF5544 /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
 		C1B3959B1C942C0000EF5544 /* ic_searchBar_bgImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_searchBar_bgImage@2x.png"; sourceTree = "<group>"; };
 		C1B3959D1C94336500EF5544 /* navBar_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navBar_bg.png; sourceTree = "<group>"; };
+		C1B395A51C943EBF00EF5544 /* xx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = xx.png; path = "WeChatContacts-demo/xx.png"; sourceTree = "<group>"; };
+		C1B395A61C943EBF00EF5544 /* xxx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = xxx.png; path = "WeChatContacts-demo/xxx.png"; sourceTree = "<group>"; };
+		C1B395A71C943EBF00EF5544 /* xxy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = xxy.png; path = "WeChatContacts-demo/xxy.png"; sourceTree = "<group>"; };
+		C1B395A81C943EBF00EF5544 /* xy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = xy.png; path = "WeChatContacts-demo/xy.png"; sourceTree = "<group>"; };
+		C1B395A91C943EBF00EF5544 /* xz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = xz.png; path = "WeChatContacts-demo/xz.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +135,11 @@
 		C1B394E31C940E7F00EF5544 = {
 			isa = PBXGroup;
 			children = (
+				C1B395A51C943EBF00EF5544 /* xx.png */,
+				C1B395A61C943EBF00EF5544 /* xxx.png */,
+				C1B395A71C943EBF00EF5544 /* xxy.png */,
+				C1B395A81C943EBF00EF5544 /* xy.png */,
+				C1B395A91C943EBF00EF5544 /* xz.png */,
 				C1B394EE1C940E7F00EF5544 /* WeChatContacts-demo */,
 				C1B394ED1C940E7F00EF5544 /* Products */,
 			);
@@ -349,6 +364,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1B395711C9420E900EF5544 /* 18.png in Resources */,
+				C1B395AA1C943EBF00EF5544 /* xx.png in Resources */,
 				C1B3956E1C9420E900EF5544 /* 15.png in Resources */,
 				C1B3956D1C9420E900EF5544 /* 14.png in Resources */,
 				C1B395671C9420E900EF5544 /* 8.png in Resources */,
@@ -358,15 +374,19 @@
 				C1B3959C1C942C0000EF5544 /* ic_searchBar_bgImage@2x.png in Resources */,
 				C1B395611C9420E900EF5544 /* 2.png in Resources */,
 				C1B395641C9420E900EF5544 /* 5.png in Resources */,
+				C1B395AB1C943EBF00EF5544 /* xxx.png in Resources */,
 				C1B394FF1C940E7F00EF5544 /* LaunchScreen.storyboard in Resources */,
 				C1B3956A1C9420E900EF5544 /* 11.png in Resources */,
 				C1B394FC1C940E7F00EF5544 /* Assets.xcassets in Resources */,
+				C1B395AC1C943EBF00EF5544 /* xxy.png in Resources */,
 				C1B395681C9420E900EF5544 /* 9.png in Resources */,
 				C1B395601C9420E900EF5544 /* 1.png in Resources */,
+				C1B395AD1C943EBF00EF5544 /* xy.png in Resources */,
 				C1B3956B1C9420E900EF5544 /* 12.png in Resources */,
 				C1B394FA1C940E7F00EF5544 /* Main.storyboard in Resources */,
 				C1B3959E1C94336500EF5544 /* navBar_bg.png in Resources */,
 				C1B395691C9420E900EF5544 /* 10.png in Resources */,
+				C1B395AE1C943EBF00EF5544 /* xz.png in Resources */,
 				C1B395651C9420E900EF5544 /* 6.png in Resources */,
 				C1B395631C9420E900EF5544 /* 4.png in Resources */,
 				C1B3956C1C9420E900EF5544 /* 13.png in Resources */,
@@ -550,6 +570,7 @@
 				C1B395051C940E7F00EF5544 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
