@@ -37,7 +37,7 @@ UISearchBarDelegate,UISearchDisplayDelegate>
 #pragma mark - dataArr(模拟从服务器获取到的数据)
 - (NSArray *)serverDataArr{
     if (!_serverDataArr) {
-        _serverDataArr=@[@{@"portrait":@"1",@"name":@"1"},@{@"portrait":@"2",@"name":@"花无缺"},@{@"portrait":@"3",@"name":@"东方不败"},@{@"portrait":@"4",@"name":@"任我行"},@{@"portrait":@"5",@"name":@"逍遥王"},@{@"portrait":@"6",@"name":@"阿离"},@{@"portrait":@"7",@"name":@"百草堂"},@{@"portrait":@"8",@"name":@"三味书屋"},@{@"portrait":@"9",@"name":@"彩彩"},@{@"portrait":@"10",@"name":@"陈晨"},@{@"portrait":@"11",@"name":@"多多"},@{@"portrait":@"12",@"name":@"峨嵋山"},@{@"portrait":@"13",@"name":@"哥哥"},@{@"portrait":@"14",@"name":@"林俊杰"},@{@"portrait":@"15",@"name":@"足球"},@{@"portrait":@"16",@"name":@"58赶集"},@{@"portrait":@"17",@"name":@"搜房网"},@{@"portrait":@"18",@"name":@"欧弟"}];
+        _serverDataArr=@[@{@"portrait":@"1",@"name":@"1"},@{@"portrait":@"2",@"name":@"花无缺"},@{@"portrait":@"3",@"name":@"东方不败"},@{@"portrait":@"4",@"name":@"任我行"},@{@"portrait":@"5",@"name":@"逍遥王"},@{@"portrait":@"6",@"name":@"阿离"},@{@"portrait":@"13",@"name":@"百草堂"},@{@"portrait":@"8",@"name":@"三味书屋"},@{@"portrait":@"9",@"name":@"彩彩"},@{@"portrait":@"10",@"name":@"陈晨"},@{@"portrait":@"11",@"name":@"多多"},@{@"portrait":@"12",@"name":@"峨嵋山"},@{@"portrait":@"7",@"name":@"哥哥"},@{@"portrait":@"14",@"name":@"林俊杰"},@{@"portrait":@"15",@"name":@"足球"},@{@"portrait":@"16",@"name":@"58赶集"},@{@"portrait":@"17",@"name":@"搜房网"},@{@"portrait":@"18",@"name":@"欧弟"}];
     }
     return _serverDataArr;
 }
@@ -56,6 +56,8 @@ UISearchBarDelegate,UISearchDisplayDelegate>
     _rowArr=[ContactDataHelper getFriendListDataBy:self.dataArr];
     _sectionArr=[ContactDataHelper getFriendListSectionBy:[_rowArr mutableCopy]];
     
+    //configNav
+    [self configNav];
     //布局View
     [self setUpView];
     
@@ -67,9 +69,21 @@ UISearchBarDelegate,UISearchDisplayDelegate>
     _searchResultArr=[NSMutableArray array];
 }
 
+- (void)configNav{
+    UIButton *btn=[UIButton buttonWithType:UIButtonTypeCustom];
+    [btn setFrame:CGRectMake(0.0, 0.0, 30.0, 30.0)];
+    [btn setBackgroundImage:[UIImage imageNamed:@"contacts_add_friend"] forState:UIControlStateNormal];
+    [self.navigationItem setRightBarButtonItem:[[UIBarButtonItem alloc]initWithCustomView:btn]];
+}
+
 #pragma mark - setUpView
 - (void)setUpView{
-    [self.view addSubview:self.tableView];
+    UIImageView *imageView=[[UIImageView alloc]initWithFrame:CGRectMake(0.0, kScreenHeight-49.0, kScreenWidth, 49.0)];
+    [imageView setImage:[UIImage imageNamed:@"footerImage"]];
+    [imageView setContentMode:UIViewContentModeScaleToFill];
+    [self.view addSubview:imageView];
+    
+    [self.view insertSubview:self.tableView belowSubview:imageView];
 }
 - (UISearchBar *)searchBar{
     if (!_searchBar) {
@@ -86,7 +100,7 @@ UISearchBarDelegate,UISearchDisplayDelegate>
 }
 - (UITableView *)tableView{
     if (!_tableView) {
-        _tableView=[[UITableView alloc]initWithFrame:CGRectMake(0.0, 0.0, kScreenWidth, kScreenHeight) style:UITableViewStylePlain];
+        _tableView=[[UITableView alloc]initWithFrame:CGRectMake(0.0, 0.0, kScreenWidth, kScreenHeight-49.0) style:UITableViewStylePlain];
         [_tableView setDelegate:self];
         [_tableView setDataSource:self];
         [_tableView setSectionIndexBackgroundColor:[UIColor clearColor]];

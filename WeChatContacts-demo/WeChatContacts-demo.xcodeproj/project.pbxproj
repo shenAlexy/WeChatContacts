@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C12858921C953C9D00ADB888 /* contacts_add_friend@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C12858901C953C9D00ADB888 /* contacts_add_friend@2x.png */; };
+		C12858931C953C9D00ADB888 /* contacts_add_friend@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C12858911C953C9D00ADB888 /* contacts_add_friend@3x.png */; };
+		C128589A1C95464A00ADB888 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12858981C95464A00ADB888 /* LaunchScreen.storyboard */; };
+		C12858A01C95483F00ADB888 /* footerImage.png in Resources */ = {isa = PBXBuildFile; fileRef = C128589F1C95483F00ADB888 /* footerImage.png */; };
+		C12858AA1C954B8B00ADB888 /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = C12858A71C954B8A00ADB888 /* x.png */; };
+		C12858AB1C954B8B00ADB888 /* y.png in Resources */ = {isa = PBXBuildFile; fileRef = C12858A81C954B8A00ADB888 /* y.png */; };
+		C12858AC1C954B8B00ADB888 /* z.png in Resources */ = {isa = PBXBuildFile; fileRef = C12858A91C954B8B00ADB888 /* z.png */; };
 		C1B394F11C940E7F00EF5544 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B394F01C940E7F00EF5544 /* main.m */; };
 		C1B394F41C940E7F00EF5544 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B394F31C940E7F00EF5544 /* AppDelegate.m */; };
 		C1B394F71C940E7F00EF5544 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B394F61C940E7F00EF5544 /* ViewController.m */; };
 		C1B394FA1C940E7F00EF5544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1B394F81C940E7F00EF5544 /* Main.storyboard */; };
 		C1B394FC1C940E7F00EF5544 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1B394FB1C940E7F00EF5544 /* Assets.xcassets */; };
-		C1B394FF1C940E7F00EF5544 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1B394FD1C940E7F00EF5544 /* LaunchScreen.storyboard */; };
 		C1B3951F1C94158E00EF5544 /* ContactTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B3951E1C94158E00EF5544 /* ContactTableViewCell.m */; };
 		C1B395221C94179D00EF5544 /* ContactModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B395211C94179D00EF5544 /* ContactModel.m */; };
 		C1B395251C941A6C00EF5544 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B395241C941A6C00EF5544 /* NSString+Utils.m */; };
@@ -47,14 +53,16 @@
 		C1B395961C94226600EF5544 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B3958C1C94226600EF5544 /* JSONValueTransformer.m */; };
 		C1B3959C1C942C0000EF5544 /* ic_searchBar_bgImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1B3959B1C942C0000EF5544 /* ic_searchBar_bgImage@2x.png */; };
 		C1B3959E1C94336500EF5544 /* navBar_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = C1B3959D1C94336500EF5544 /* navBar_bg.png */; };
-		C1B395AA1C943EBF00EF5544 /* xx.png in Resources */ = {isa = PBXBuildFile; fileRef = C1B395A51C943EBF00EF5544 /* xx.png */; };
-		C1B395AB1C943EBF00EF5544 /* xxx.png in Resources */ = {isa = PBXBuildFile; fileRef = C1B395A61C943EBF00EF5544 /* xxx.png */; };
-		C1B395AC1C943EBF00EF5544 /* xxy.png in Resources */ = {isa = PBXBuildFile; fileRef = C1B395A71C943EBF00EF5544 /* xxy.png */; };
-		C1B395AD1C943EBF00EF5544 /* xy.png in Resources */ = {isa = PBXBuildFile; fileRef = C1B395A81C943EBF00EF5544 /* xy.png */; };
-		C1B395AE1C943EBF00EF5544 /* xz.png in Resources */ = {isa = PBXBuildFile; fileRef = C1B395A91C943EBF00EF5544 /* xz.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C12858901C953C9D00ADB888 /* contacts_add_friend@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contacts_add_friend@2x.png"; sourceTree = "<group>"; };
+		C12858911C953C9D00ADB888 /* contacts_add_friend@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contacts_add_friend@3x.png"; sourceTree = "<group>"; };
+		C12858991C95464A00ADB888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "WeChatContacts-demo/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		C128589F1C95483F00ADB888 /* footerImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = footerImage.png; sourceTree = "<group>"; };
+		C12858A71C954B8A00ADB888 /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
+		C12858A81C954B8A00ADB888 /* y.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = y.png; sourceTree = "<group>"; };
+		C12858A91C954B8B00ADB888 /* z.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = z.png; sourceTree = "<group>"; };
 		C1B394EC1C940E7F00EF5544 /* WeChatContacts-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WeChatContacts-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1B394F01C940E7F00EF5544 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C1B394F21C940E7F00EF5544 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,7 +71,6 @@
 		C1B394F61C940E7F00EF5544 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C1B394F91C940E7F00EF5544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1B394FB1C940E7F00EF5544 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C1B394FE1C940E7F00EF5544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1B395001C940E7F00EF5544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1B3951D1C94158E00EF5544 /* ContactTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactTableViewCell.h; sourceTree = "<group>"; };
 		C1B3951E1C94158E00EF5544 /* ContactTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactTableViewCell.m; sourceTree = "<group>"; };
@@ -114,11 +121,6 @@
 		C1B3958C1C94226600EF5544 /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
 		C1B3959B1C942C0000EF5544 /* ic_searchBar_bgImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_searchBar_bgImage@2x.png"; sourceTree = "<group>"; };
 		C1B3959D1C94336500EF5544 /* navBar_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navBar_bg.png; sourceTree = "<group>"; };
-		C1B395A51C943EBF00EF5544 /* xx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = xx.png; path = "WeChatContacts-demo/xx.png"; sourceTree = "<group>"; };
-		C1B395A61C943EBF00EF5544 /* xxx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = xxx.png; path = "WeChatContacts-demo/xxx.png"; sourceTree = "<group>"; };
-		C1B395A71C943EBF00EF5544 /* xxy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = xxy.png; path = "WeChatContacts-demo/xxy.png"; sourceTree = "<group>"; };
-		C1B395A81C943EBF00EF5544 /* xy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = xy.png; path = "WeChatContacts-demo/xy.png"; sourceTree = "<group>"; };
-		C1B395A91C943EBF00EF5544 /* xz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = xz.png; path = "WeChatContacts-demo/xz.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,11 +137,6 @@
 		C1B394E31C940E7F00EF5544 = {
 			isa = PBXGroup;
 			children = (
-				C1B395A51C943EBF00EF5544 /* xx.png */,
-				C1B395A61C943EBF00EF5544 /* xxx.png */,
-				C1B395A71C943EBF00EF5544 /* xxy.png */,
-				C1B395A81C943EBF00EF5544 /* xy.png */,
-				C1B395A91C943EBF00EF5544 /* xz.png */,
 				C1B394EE1C940E7F00EF5544 /* WeChatContacts-demo */,
 				C1B394ED1C940E7F00EF5544 /* Products */,
 			);
@@ -156,6 +153,9 @@
 		C1B394EE1C940E7F00EF5544 /* WeChatContacts-demo */ = {
 			isa = PBXGroup;
 			children = (
+				C12858A71C954B8A00ADB888 /* x.png */,
+				C12858A81C954B8A00ADB888 /* y.png */,
+				C12858A91C954B8B00ADB888 /* z.png */,
 				C1B395071C940F2A00EF5544 /* Resources */,
 				C1B395061C940F0200EF5544 /* libs */,
 				C1B394F21C940E7F00EF5544 /* AppDelegate.h */,
@@ -167,8 +167,8 @@
 				C1B395201C94179D00EF5544 /* ContactModel.h */,
 				C1B395211C94179D00EF5544 /* ContactModel.m */,
 				C1B394F81C940E7F00EF5544 /* Main.storyboard */,
+				C12858981C95464A00ADB888 /* LaunchScreen.storyboard */,
 				C1B394FB1C940E7F00EF5544 /* Assets.xcassets */,
-				C1B394FD1C940E7F00EF5544 /* LaunchScreen.storyboard */,
 				C1B395001C940E7F00EF5544 /* Info.plist */,
 				C1B394EF1C940E7F00EF5544 /* Supporting Files */,
 			);
@@ -206,6 +206,9 @@
 		C1B3950A1C94101E00EF5544 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				C128589F1C95483F00ADB888 /* footerImage.png */,
+				C12858901C953C9D00ADB888 /* contacts_add_friend@2x.png */,
+				C12858911C953C9D00ADB888 /* contacts_add_friend@3x.png */,
 				C1B3959D1C94336500EF5544 /* navBar_bg.png */,
 				C1B3959B1C942C0000EF5544 /* ic_searchBar_bgImage@2x.png */,
 				C1B395291C941DE800EF5544 /* portraits */,
@@ -364,29 +367,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1B395711C9420E900EF5544 /* 18.png in Resources */,
-				C1B395AA1C943EBF00EF5544 /* xx.png in Resources */,
+				C12858931C953C9D00ADB888 /* contacts_add_friend@3x.png in Resources */,
 				C1B3956E1C9420E900EF5544 /* 15.png in Resources */,
 				C1B3956D1C9420E900EF5544 /* 14.png in Resources */,
 				C1B395671C9420E900EF5544 /* 8.png in Resources */,
+				C12858AB1C954B8B00ADB888 /* y.png in Resources */,
 				C1B395621C9420E900EF5544 /* 3.png in Resources */,
 				C1B395701C9420E900EF5544 /* 17.png in Resources */,
+				C12858A01C95483F00ADB888 /* footerImage.png in Resources */,
+				C12858921C953C9D00ADB888 /* contacts_add_friend@2x.png in Resources */,
 				C1B3956F1C9420E900EF5544 /* 16.png in Resources */,
 				C1B3959C1C942C0000EF5544 /* ic_searchBar_bgImage@2x.png in Resources */,
+				C12858AC1C954B8B00ADB888 /* z.png in Resources */,
 				C1B395611C9420E900EF5544 /* 2.png in Resources */,
 				C1B395641C9420E900EF5544 /* 5.png in Resources */,
-				C1B395AB1C943EBF00EF5544 /* xxx.png in Resources */,
-				C1B394FF1C940E7F00EF5544 /* LaunchScreen.storyboard in Resources */,
 				C1B3956A1C9420E900EF5544 /* 11.png in Resources */,
 				C1B394FC1C940E7F00EF5544 /* Assets.xcassets in Resources */,
-				C1B395AC1C943EBF00EF5544 /* xxy.png in Resources */,
+				C128589A1C95464A00ADB888 /* LaunchScreen.storyboard in Resources */,
 				C1B395681C9420E900EF5544 /* 9.png in Resources */,
 				C1B395601C9420E900EF5544 /* 1.png in Resources */,
-				C1B395AD1C943EBF00EF5544 /* xy.png in Resources */,
 				C1B3956B1C9420E900EF5544 /* 12.png in Resources */,
 				C1B394FA1C940E7F00EF5544 /* Main.storyboard in Resources */,
 				C1B3959E1C94336500EF5544 /* navBar_bg.png in Resources */,
+				C12858AA1C954B8B00ADB888 /* x.png in Resources */,
 				C1B395691C9420E900EF5544 /* 10.png in Resources */,
-				C1B395AE1C943EBF00EF5544 /* xz.png in Resources */,
 				C1B395651C9420E900EF5544 /* 6.png in Resources */,
 				C1B395631C9420E900EF5544 /* 4.png in Resources */,
 				C1B3956C1C9420E900EF5544 /* 13.png in Resources */,
@@ -424,20 +428,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		C12858981C95464A00ADB888 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C12858991C95464A00ADB888 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		C1B394F81C940E7F00EF5544 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C1B394F91C940E7F00EF5544 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C1B394FD1C940E7F00EF5544 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C1B394FE1C940E7F00EF5544 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
